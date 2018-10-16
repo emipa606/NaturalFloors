@@ -1,0 +1,6 @@
+*Thumbs.db
+/source/*/Bin/*
+
+bin/
+obj/
+Source/.vs/

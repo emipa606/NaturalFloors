@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============= Misc ============= -->
+
+  <WorkGiverDef>
+    <defName>WaterCollection</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hauling</workType>
+    <verb>collect</verb>
+    <gerund>collecting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <fixedBillGiverDefs>
+      <li>Well</li>
+     </fixedBillGiverDefs>
+  </WorkGiverDef>
+
+</Defs>
