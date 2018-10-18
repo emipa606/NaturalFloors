@@ -35,7 +35,10 @@
     <Compile Include="PlaceWorker_NearWater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Source-DLLs\Assembly-CSharp.dll" />
+    <Content Include="Source-DLLs\UnityEngine.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -50,10 +53,6 @@
     <Reference Include="Mono.Security">
       <HintPath>..\..\..\..\RimWorldWin_Data\Managed\Mono.Security.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Source-DLLs\Assembly-CSharp.dll" />
-    <Content Include="Source-DLLs\UnityEngine.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

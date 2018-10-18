@@ -30,7 +30,7 @@ namespace NaturalFloors
                 {
                     if (!(thing is Corpse corpse))
                     {
-                        throw new InvalidOperationException($"Snable to cast {thing.Label} to a corpse. Something went wrong");
+                        throw new InvalidOperationException($"Unable to cast {thing.Label} to a corpse. Something went wrong");
                     }
 
                     if (corpse.InnerPawn.def.race.Animal || corpse.InnerPawn.def.race.Humanlike)
