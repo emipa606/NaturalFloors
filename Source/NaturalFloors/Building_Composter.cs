@@ -6,8 +6,8 @@ namespace NaturalFloors
 {
     public class Building_Composter : Building_Storage
     {
-        private readonly Thing _compost = ThingMaker.MakeThing(ThingDef.Named("freshCompost"));
         private readonly DamageInfo _damageInfo = new DamageInfo(DamageDefOf.Rotting, 1);
+        private int _stackCount;
 
         public override void TickRare()
         {
@@ -25,8 +25,8 @@ namespace NaturalFloors
                 {
                     continue;
                 }
-                
-                if (thing.def.defName.Contains("Corpse"))
+
+                if (thing.def.IsCorpse)
                 {
                     if (!(thing is Corpse corpse))
                     {
@@ -36,13 +36,13 @@ namespace NaturalFloors
                     if (corpse.InnerPawn.def.race.Animal || corpse.InnerPawn.def.race.Humanlike)
                     {
                         thing.TakeDamage(_damageInfo);
-                        _compost.stackCount = 25;
+                        _stackCount = 25;
                     }
                 }
                 else
                 {
                     thing.TakeDamage(_damageInfo);
-                    _compost.stackCount = thing.stackCount;
+                    _stackCount = thing.stackCount;
                 }
 
                 if (thing.HitPoints >= 10)
@@ -51,7 +51,9 @@ namespace NaturalFloors
                 }
 
                 thing.Destroy();
-                GenSpawn.Spawn(_compost, Position, Map);
+                var compost = ThingMaker.MakeThing(ThingDef.Named("freshCompost"));
+                compost.stackCount = _stackCount;
+                GenSpawn.Spawn(compost, Position, Map);
             }
         }
     }
