@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>RoofBomb</name>
+	<name>NaturalFloors</name>
 	<author>Skullywag</author>
-	<packageId>Skullywags.RoofBomb.1.1Updated</packageId>
-	<url>https://github.com/dariooo512/RoofBomb</url>
+	<packageId>Skullywags.NaturalFloors.1.1Updated</packageId>
+	<url>https://github.com/dariooo512/Rimworld-NaturalFloors</url>
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
