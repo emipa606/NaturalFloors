@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
-using Verse;
 using RimWorld;
+using Verse;
+
 namespace NaturalFloors
 {
     public class Building_Composter : Building_Storage
@@ -30,7 +31,8 @@ namespace NaturalFloors
                 {
                     if (!(thing is Corpse corpse))
                     {
-                        throw new InvalidOperationException($"Unable to cast {thing.Label} to a corpse. Something went wrong");
+                        throw new InvalidOperationException(
+                            $"Unable to cast {thing.Label} to a corpse. Something went wrong");
                     }
 
                     if (corpse.InnerPawn.def.race.Animal || corpse.InnerPawn.def.race.Humanlike)

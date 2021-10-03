@@ -1,43 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-  <!-- =========== bases =========== -->
-
-  <ThingDef Name="ResourceBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <label>unspecified resource</label>
-    <category>Item</category>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
-    <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
-  </ThingDef>
-
-  <ThingDef Name="ResourceVerbBase" ParentName="ResourceBase" Abstract="True">
-    <equipmentType>Primary</equipmentType>
-    <techLevel>Neolithic</techLevel>
-    <comps>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-
-
   <!--=============== Pure stuffs: Basics ====================-->
-
   <ThingDef ParentName="ResourceBase">
     <defName>WaterBucket</defName>
     <label>water</label>
@@ -60,7 +23,6 @@
     </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
-
   <ThingDef ParentName="ResourceBase">
     <defName>omniSand</defName>
     <label>sand</label>
@@ -83,7 +45,6 @@
     </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
-
   <ThingDef ParentName="ResourceBase">
     <defName>freshCompost</defName>
     <label>Compost</label>
@@ -106,5 +67,4 @@
     </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
-  
 </Defs>

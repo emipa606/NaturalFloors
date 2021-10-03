@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Pure stuffs: Basics ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>WaterBucket</defName>
+    <label>water</label>
+    <description>All living things depend on this for life.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WaterBucket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <Mass>5</Mass>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>omniSand</defName>
+    <label>sand</label>
+    <description>Fine grains of silicon and other minerals.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Sand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <statBases>
+      <Mass>3</Mass>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>freshCompost</defName>
+    <label>Compost</label>
+    <description>A mass of biodegradeable stuff.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Compost</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <statBases>
+      <Mass>2.5</Mass>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+</Defs>

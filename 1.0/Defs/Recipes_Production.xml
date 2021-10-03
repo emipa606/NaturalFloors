@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RecipeDef>
     <defName>MakeSand</defName>
     <label>Make sand</label>
@@ -34,7 +33,6 @@
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
-
   <RecipeDef>
     <defName>CollectWater</defName>
     <label>Collect water</label>
@@ -65,5 +63,4 @@
       <WaterBucket>5</WaterBucket>
     </products>
   </RecipeDef>
-
 </Defs>

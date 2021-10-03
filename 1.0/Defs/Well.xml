@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BuildingBase">
     <defName>Well</defName>
     <label>well</label>
@@ -10,7 +9,7 @@
       <texPath>Things/Buildings/Well</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-    </graphicData>   
+    </graphicData>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <castEdgeShadows>True</castEdgeShadows>
     <costList>
@@ -45,5 +44,4 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
   </ThingDef>
-
 </Defs>
