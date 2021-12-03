@@ -1,5 +1,8 @@
 # Changelog for NaturalFloors
 
+1.0.3.0 - Removed the possibility to compost mechanoid corpses, thanks TheOldOne822!
+
+
 1.0.2.0 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1914064942]Vanilla Fishing Expanded[/url] Thanks Kayedon!
 
 
