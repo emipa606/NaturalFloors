@@ -1,4 +1,7 @@
 # Changelog for NaturalFloors
 
+1.0.2.0 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1914064942]Vanilla Fishing Expanded[/url] Thanks Kayedon!
+
+
 1.0.1.0 - Updated to 1.3
 
