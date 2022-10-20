@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Fishing Expanded</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/VCE_Fishing.FishableTerrainDef[defName="VCEF_VanillaFishableTerrainsFresh"]/allowedTerrains</xpath>
+      <value>
+        <li>WaterDeepFloor</li>
+        <li>WaterChestDeepFloor</li>
+        <li>WaterShallowFloor</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
