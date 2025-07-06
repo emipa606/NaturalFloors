@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Compost -->
+  <freshCompost.label>Compost</freshCompost.label>
+  <!-- EN: A mass of biodegradeable stuff. -->
+  <freshCompost.description>A mass of biodegradeable stuff.</freshCompost.description>
+  <!-- EN: sand -->
+  <omniSand.label>sand</omniSand.label>
+  <!-- EN: Fine grains of silicon and other minerals. -->
+  <omniSand.description>Fine grains of silicon and other minerals.</omniSand.description>
+  <!-- EN: water -->
+  <WaterBucket.label>water</WaterBucket.label>
+  <!-- EN: All living things depend on this for life. -->
+  <WaterBucket.description>All living things depend on this for life.</WaterBucket.description>
+</LanguageData>

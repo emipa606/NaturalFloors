@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 578749008
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d8c89e57453e72f1570c7f0dc75ecf2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 4d8c89e57453e72f1570c7f0dc75ecf2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_north.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Item/Resource/Compost.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_eastm.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_northm.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Item/Resource/WaterBucket.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Item/Resource/Sand.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_east.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_south.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/Well_southm.png
+- Assets/Data/Mlie.NaturalFloors/Textures/Things/Buildings/CompostBin.png
+Dependencies: []

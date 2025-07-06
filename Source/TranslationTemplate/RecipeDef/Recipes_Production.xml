@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Collect water -->
+  <CollectWater.label>Collect water</CollectWater.label>
+  <!-- EN: Collect water (requires wood for a bucket). -->
+  <CollectWater.description>Collect water (requires wood for a bucket).</CollectWater.description>
+  <!-- EN: Collecting water. -->
+  <CollectWater.jobString>Collecting water.</CollectWater.jobString>
+  <!-- EN: Make sand -->
+  <MakeSand.label>Make sand</MakeSand.label>
+  <!-- EN: Make sand. -->
+  <MakeSand.description>Make sand.</MakeSand.description>
+  <!-- EN: Making sand. -->
+  <MakeSand.jobString>Making sand.</MakeSand.jobString>
+</LanguageData>

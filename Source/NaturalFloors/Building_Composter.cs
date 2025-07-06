@@ -7,7 +7,7 @@ namespace NaturalFloors;
 
 public class Building_Composter : Building_Storage
 {
-    private readonly DamageInfo _damageInfo = new DamageInfo(DamageDefOf.Rotting, 1);
+    private readonly DamageInfo _damageInfo = new(DamageDefOf.Rotting, 1);
     private int _stackCount;
 
     public override void TickRare()

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: gravel floor -->
+  <GravelFloor.label>gravel floor</GravelFloor.label>
+  <!-- EN: A simple floor made of Gravel. -->
+  <GravelFloor.description>A simple floor made of Gravel.</GravelFloor.description>
+  <!-- EN: mud floor -->
+  <MudFloor.label>mud floor</MudFloor.label>
+  <!-- EN: A floor made of Mud. In case it comes handy. Not fertile -->
+  <MudFloor.description>A floor made of Mud. In case it comes handy. Not fertile</MudFloor.description>
+  <!-- EN: rough granite floor -->
+  <RoughGraniteFloor.label>rough granite floor</RoughGraniteFloor.label>
+  <!-- EN: Granite eroded by the elements. -->
+  <RoughGraniteFloor.description>Granite eroded by the elements.</RoughGraniteFloor.description>
+  <!-- EN: rough limestone floor -->
+  <RoughLimestoneFloor.label>rough limestone floor</RoughLimestoneFloor.label>
+  <!-- EN: Limestone eroded by the elements. -->
+  <RoughLimestoneFloor.description>Limestone eroded by the elements.</RoughLimestoneFloor.description>
+  <!-- EN: rough marble floor -->
+  <RoughMarbleFloor.label>rough marble floor</RoughMarbleFloor.label>
+  <!-- EN: Marble eroded by the elements. -->
+  <RoughMarbleFloor.description>Marble eroded by the elements.</RoughMarbleFloor.description>
+  <!-- EN: rough sandstone floor -->
+  <RoughSandstoneFloor.label>rough sandstone floor</RoughSandstoneFloor.label>
+  <!-- EN: Sandstone eroded by the elements. -->
+  <RoughSandstoneFloor.description>Sandstone eroded by the elements.</RoughSandstoneFloor.description>
+  <!-- EN: rough slate floor -->
+  <RoughSlateFloor.label>rough slate floor</RoughSlateFloor.label>
+  <!-- EN: Slate eroded by the elements. -->
+  <RoughSlateFloor.description>Slate eroded by the elements.</RoughSlateFloor.description>
+  <!-- EN: sand floor -->
+  <SandFloor.label>sand floor</SandFloor.label>
+  <!-- EN: A simple floor made of Sand. -->
+  <SandFloor.description>A simple floor made of Sand.</SandFloor.description>
+  <!-- EN: soil floor -->
+  <SoilFloor.label>soil floor</SoilFloor.label>
+  <!-- EN: The common soil floor with standard fertility. -->
+  <SoilFloor.description>The common soil floor with standard fertility.</SoilFloor.description>
+  <!-- EN: chest deep water floor -->
+  <WaterChestDeepFloor.label>chest deep water floor</WaterChestDeepFloor.label>
+  <!-- EN: Chest deep water. -->
+  <WaterChestDeepFloor.description>Chest deep water.</WaterChestDeepFloor.description>
+  <!-- EN: water -->
+  <WaterChestDeepFloor.tools.water.label>water</WaterChestDeepFloor.tools.water.label>
+  <!-- EN: deep water floor -->
+  <WaterDeepFloor.label>deep water floor</WaterDeepFloor.label>
+  <!-- EN: Deep water. -->
+  <WaterDeepFloor.description>Deep water.</WaterDeepFloor.description>
+  <!-- EN: water -->
+  <WaterDeepFloor.tools.water.label>water</WaterDeepFloor.tools.water.label>
+  <!-- EN: shallow water floor -->
+  <WaterShallowFloor.label>shallow water floor</WaterShallowFloor.label>
+  <!-- EN: Shallow water. -->
+  <WaterShallowFloor.description>Shallow water.</WaterShallowFloor.description>
+  <!-- EN: water -->
+  <WaterShallowFloor.tools.water.label>water</WaterShallowFloor.tools.water.label>
+</LanguageData>
