@@ -3,4 +3,24 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="NaturalFloors/NaturalFloors.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/NaturalFloors_Keys.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/CompostBin.xml" />
+    <File Path="../1.7/Defs/Items_Resources.xml" />
+    <File Path="../1.7/Defs/Recipes_Production.xml" />
+    <File Path="../1.7/Defs/Terrain_Floors.xml" />
+    <File Path="../1.7/Defs/Well.xml" />
+    <File Path="../1.7/Defs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/VanillaFishingExpanded.xml" />
+  </Folder>
 </Solution>
